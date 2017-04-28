@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo Bluetooth" />
+
+    <Button
+        android:id="@+id/btnhablitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilitar Bluetooth" />
+
+    <Button
+        android:id="@+id/btnmostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar dispositivos vinculados" />
+
+    <Button
+        android:id="@+id/btnvisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hacer dispositivo visible" />
+
+    <TextView
+        android:id="@+id/lbldispositivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
+
