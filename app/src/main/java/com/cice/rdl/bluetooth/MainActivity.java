@@ -104,9 +104,6 @@ public class MainActivity extends AppCompatActivity {
                     lbldispositivos.setText("¡El dispositivo Bluetooth no se ha HABILITADO!");
                 }
                 break;
-            default:
-                lbldispositivos.setText("");
-                break;
         }
     }
 
