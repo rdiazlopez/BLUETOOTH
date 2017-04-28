@@ -97,7 +97,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "El dispositivo Bluetooth está HABILITADO", Toast.LENGTH_SHORT).show();
                     lbldispositivos.setText("El dispositivo Bluetooth está HABILITADO");
+                } else {
+                    //INDICAMOS AL USUARIO QUE NO SE HA PERMITIDO HABILITAR EL BLUETOOTH
+                    Toast.makeText(getApplicationContext(),
+                            "¡El dispositivo Bluetooth no se ha HABILITADO!", Toast.LENGTH_SHORT).show();
+                    lbldispositivos.setText("¡El dispositivo Bluetooth no se ha HABILITADO!");
                 }
+                break;
+            default:
+                lbldispositivos.setText("");
                 break;
         }
     }
