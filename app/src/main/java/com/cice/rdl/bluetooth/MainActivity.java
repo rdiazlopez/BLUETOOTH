@@ -10,7 +10,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.Set;
 
 
@@ -19,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnhabilitar;
     Button btnmostrar;
     Button btnvisible;
+
     //NECESITAMOS EL ADAPTADOR QUE SERÁ
     //EL ENCARGADO DE REALIZAR TODAS LAS
     //PETICIONES AL TELÉFONO
